@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Este artigo abrange o seguinte:
 
-* As diferenças entre uma organização de sandbox de parceiro Adobe Exchange existente e a sandbox AEP compartilhada.
+* As diferenças entre uma Organização de sandbox de parceiro de Adobe Exchange existente e a sandbox da AEP compartilhada.
 * Solicitação de acesso à sandbox compartilhada da AEP.
 * Recebimento de um convite por email para a sandbox compartilhada da AEP.
 * Convidar novos usuários na [!DNL Admin Console].
@@ -26,8 +26,8 @@ Para obter uma visão geral da tecnologia de sandbox na AEP, consulte esta [arti
 Os parceiros do Exchange recebem acesso a vários Adobe [!DNL Experience Cloud] produtos (produtos não-AEP como [!DNL Analytics], [!DNL Target], tags da Platform e assim por diante) por meio de seu próprio Adobe [!DNL Experience Cloud] Org (não compartilhado). Os parceiros recebem direitos de acesso de administrador do sistema a sua própria organização para gerenciar usuários e outras permissões. Adobe [!DNL Experience Platform] (AEP) é tratada de forma diferente das outras sandboxes Adobe. Estas são as principais diferenças:
 
 * O acesso ao AEP NÃO será feito por meio do Adobe principal dos parceiros [!DNL Experience Cloud] sandbox Org.
-* O acesso ao AEP é feito por meio de uma organização compartilhada do Adobe Exchange.
-* Muitas outras empresas parceiras do Adobe Exchange estão acessando a AEP usando a mesma organização
+* O acesso ao AEP é feito por meio de uma organização de Adobe Exchange compartilhado.
+* Muitas outras empresas parceiras de Adobe Exchange estão acessando a AEP usando a mesma organização
    * Por meio do recurso Sandbox da AEP, os dados e as atividades nesta organização compartilhada não podem ser vistos ou modificados pelos outros parceiros. Cada parceiro terá acesso a uma sandbox diferente na organização compartilhada.
 * Os direitos de administração nesta organização compartilhada são muito limitados.
 * Após receber acesso a uma sandbox na AEP, os parceiros verão duas organizações no alternador de organizações na parte superior direita da interface do usuário, enquanto estiverem na página inicial do Admin Console ou do Experience Cloud principal. No entanto, quando conectado à AEP, somente a organização compartilhada deverá estar visível.
