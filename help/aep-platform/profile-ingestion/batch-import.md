@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Importar dados em lote para a AEP
 
-A AEP pode assimilar arquivos em lote que contenham dados de perfil de um arquivo simples (como parquet) ou dados que estejam em conformidade com um esquema conhecido no [!UICONTROL Experience Data Model] Registro do (XDM).
+A AEP pode assimilar arquivos em lote que contenham dados de perfil de um arquivo simples (como parquet) ou dados que estejam em conformidade com um esquema conhecido no registro do [!UICONTROL Experience Data Model] (XDM).
 
 A AEP pode assimilar dados usando arquivos em lote. Os seguintes formatos são aceitos: JSON, Parquet e CSV.
 
@@ -23,7 +23,7 @@ Este artigo abordará o seguinte:
 * Como concluir um lote
 * Como verificar o status de um lote
 
-A variável [Coleção Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) é referenciado em todo o artigo usando as chamadas associadas por número. Mais detalhes sobre como instalar e usar a coleção do Postman estão disponíveis no GitHub [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) página. Também há exemplos de conjuntos de dados de [fidelização](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) e [perfil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) dados.
+A [coleção do Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) é referenciada em todo o artigo usando as chamadas associadas por número. Mais detalhes sobre como instalar e usar a coleção do Postman estão disponíveis na página Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md). Também há exemplos de conjuntos de dados de [fidelidade](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) e [perfil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json).
 
 Para todas as chamadas neste tutorial, use as pastas de chamadas do Postman: 4: Importação em lote, 4a: Importação em lote para dados DE PERFIL OU 4b: Importação em lote para dados DE EVENTO.
 
@@ -38,7 +38,7 @@ Para todas as chamadas neste tutorial, use as pastas de chamadas do Postman: 4: 
 
 * Tamanho máximo do lote: 100 GB
 * Número máximo de arquivos por lote: 1500
-* Se um arquivo tiver mais de 512 MB, ele precisará ser dividido em partes menores. Mais detalhes podem ser encontrados na [guia do desenvolvedor](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
+* Se um arquivo tiver mais de 512 MB, ele precisará ser dividido em partes menores. Mais detalhes podem ser encontrados no [guia do desenvolvedor](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
 * Número máximo de propriedades ou campos por linha: 10.000
 * Número máximo de lotes por minuto, por usuário: 138
 
@@ -234,8 +234,8 @@ Resposta:
 ## Artigos de referência
 
 * [API de assimilação de dados](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
-* [Visão geral da assimilação em lote](https://docs.adobe.com/content/help/pt-BR/experience-platform/ingestion/home.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
+* [Visão geral da assimilação em lote](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
 * [Guia do desenvolvedor de assimilação em lote](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
-* [Guia de solução de problemas de assimilação em lote](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
+* [Guia de Solução de Problemas de Assimilação em Lote](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
 * [Coleção Postman de assimilação de dados](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
 * [Tutorial de autenticação](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)
