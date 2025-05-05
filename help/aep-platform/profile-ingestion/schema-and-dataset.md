@@ -21,11 +21,11 @@ Consulte [esta documentação](https://www.adobe.io/apis/experienceplatform/home
 
 ### Criar um esquema
 
-Os parceiros podem criar um esquema usando a interface seguindo este [tutorial](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html). Este exemplo usa o esquema de perfil do programa de fidelidade. Embora o exemplo seja um schema de perfil, schemas baseados em eventos podem ser usados usando um processo semelhante.
+Os parceiros podem criar um esquema usando a interface seguindo este [tutorial](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/tutorials/create-schema-ui.html). Este exemplo usa o esquema de perfil do programa de fidelidade. Embora o exemplo seja um schema de perfil, schemas baseados em eventos podem ser usados usando um processo semelhante.
 
 Para usar as APIs, os parceiros devem ter uma integração de Adobe I/O existente com [!DNL Experience Platform] permissões habilitadas. Consulte este manual para [criar uma integração de E/S](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
-Em seguida, visite [este link](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-api.html) para saber como criar esquemas usando a API.
+Em seguida, visite [este link](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/tutorials/create-schema-api.html) para saber como criar esquemas usando a API.
 
 Para criar um esquema por meio do Postman, use as chamadas contidas nas pastas 1: Criar esquema, 1a: Criar esquema para dados de PERFIL OU 1b: Criar esquema para dados DE EVENTO.
 
@@ -35,7 +35,7 @@ Todos os dados trazidos para o Adobe [!DNL Experience Platform] estão contidos 
 
 O Serviço de Catálogo é o sistema de registro para localização e linhagem de dados no [!DNL Experience Platform], e é usado para criar e gerenciar conjuntos de dados. O catálogo rastreia os metadados de cada conjunto de dados, o que inclui uma referência ao esquema do Experience Data Model (XDM) com o qual o conjunto de dados está em conformidade (explicado na próxima seção) e o número de registros assimilados nesse conjunto de dados.
 
-Acesse [aqui](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/overview.html) para obter uma visão geral detalhada do conjunto de dados.
+Acesse [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/catalog/datasets/overview.html) para obter uma visão geral detalhada do conjunto de dados.
 
 ### Criar um conjunto de dados
 
@@ -53,9 +53,9 @@ Criar um conjunto de dados por meio da interface do usuário:
 
 1. Clique em **[!UICONTROL Concluir]**.
 
-Obtenha [aqui](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/user-guide.html) um guia do usuário do conjunto de dados.
+Obtenha [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/catalog/datasets/user-guide.html) um guia do usuário do conjunto de dados.
 
-[Criar um conjunto de dados usando as APIs](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/create.html).
+[Criar um conjunto de dados usando as APIs](https://docs.adobe.com/content/help/pt-BR/experience-platform/catalog/datasets/create.html).
 
 Para criar um conjunto de dados por meio do Postman, use as pastas 2: Criar conjunto de dados, 2a: Criar conjunto de dados para dados do PERFIL OU 2b: Criar conjunto de dados para dados do EVENTO.
 
