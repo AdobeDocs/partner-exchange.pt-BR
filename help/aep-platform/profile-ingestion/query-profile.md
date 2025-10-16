@@ -393,7 +393,7 @@ Uma resposta bem-sucedida retorna uma lista paginada de eventos de série tempor
 
 ### Paginação para eventos de série temporal de um perfil
 
-Os resultados são paginados ao recuperar eventos de série temporal. Se houver páginas subsequentes de resultados, o parâmetro page.next &amp;lowbar;page.next da resposta conterá uma ID. Além disso, o parâmetro &amp;lowbar;links.next.href da resposta fornece um URI de solicitação para recuperar a página subsequente.
+Os resultados são paginados ao recuperar eventos de série temporal. Se houver páginas subsequentes de resultados, o parâmetro page.next &lowbar;page.next da resposta conterá uma ID. Além disso, o parâmetro &lowbar;links.next.href da resposta fornece um URI de solicitação para recuperar a página subsequente.
 
 Solicitação:
 
@@ -411,7 +411,7 @@ curl -X GET \
 
 Resposta:
 
-Uma resposta bem-sucedida retorna a próxima página de resultados. Este exemplo demonstra uma resposta em que não há páginas subsequentes de resultados, conforme indicado pelos valores de sequência vazios de &amp;lowbar;page.next e &amp;lowbar;links.next.href.
+Uma resposta bem-sucedida retorna a próxima página de resultados. Este exemplo demonstra uma resposta em que não há páginas subsequentes de resultados, conforme indicado pelos valores de sequência vazios de &lowbar;page.next e &lowbar;links.next.href.
 
 ```
 {
