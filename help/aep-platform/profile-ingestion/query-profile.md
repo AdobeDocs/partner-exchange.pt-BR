@@ -2,16 +2,16 @@
 title: Acessar o perfil unificado
 description: Use APIs para acessar o Perfil unificado.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
 # Acessar o Perfil unificado usando a API de perfil
 
-O Adobe [!DNL Experience Platform] pode acessar o perfil do cliente em tempo real; a [[!DNL Experience Platform] API de Perfil do Cliente em Tempo Real](https://adobe.ly/2TtDHWr) foi projetada para interagir com isso. Consulte este [tutorial](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/api/getting-started.html) para saber como acessar os dados de perfil do cliente em tempo real usando a API de perfil.
+O Adobe [!DNL Experience Platform] pode acessar o perfil do cliente em tempo real; a [[!DNL Experience Platform] API de Perfil do Cliente em Tempo Real](https://adobe.ly/2TtDHWr) foi projetada para interagir com isso. Consulte este [tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) para saber como acessar os dados de perfil do cliente em tempo real usando a API de perfil.
 
 Este artigo fará referência substancial ao tutorial vinculado acima.
 
@@ -21,11 +21,11 @@ Para esta seção, use a pasta do Postman 5: Pesquisa de perfil, 5a: Dados de PE
 
 ## Uso da API
 
-As seções a seguir ajudam na autenticação para o Experience Platform. Saiba mais sobre o caminho da API, informações de cabeçalho e muito mais.
+As seções a seguir ajudam na autenticação no Experience Platform. Saiba mais sobre o caminho da API, informações de cabeçalho e muito mais.
 
 ### Autenticar para [!DNL Platform]
 
-Consulte o tutorial de autenticação [this](https://docs.adobe.com/content/help/pt-BR/experience-platform/tutorials/authentication.html) antes de fazer qualquer uma das chamadas abaixo.
+Consulte o tutorial de autenticação [this](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) antes de fazer qualquer uma das chamadas abaixo.
 
 ### Caminho da API
 
@@ -49,7 +49,7 @@ Mais informações explicadas sobre o cabeçalho podem ser encontradas no [tutor
 
 ## Acessar perfis de clientes em tempo real usando identidades
 
-A API de perfil permite o acesso a Perfis que usam identidades por meio de uma solicitação GET. As seções abaixo seguirão este [guia](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/api/entities.html).
+A API de perfil permite o acesso a Perfis que usam identidades por meio de uma solicitação GET. As seções abaixo seguirão este [guia](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
 
 ### Acessar dados do perfil usando a identidade
 
@@ -393,7 +393,7 @@ Uma resposta bem-sucedida retorna uma lista paginada de eventos de série tempor
 
 ### Paginação para eventos de série temporal de um perfil
 
-Os resultados são paginados ao recuperar eventos de série temporal. Se houver páginas subsequentes de resultados, o parâmetro _page.next da resposta conterá uma ID. Além disso, o parâmetro _links.next.href da resposta fornece um URI de solicitação para recuperar a página subsequente.
+Os resultados são paginados ao recuperar eventos de série temporal. Se houver páginas subsequentes de resultados, o parâmetro page.next &amp;lowbar;page.next da resposta conterá uma ID. Além disso, o parâmetro &amp;lowbar;links.next.href da resposta fornece um URI de solicitação para recuperar a página subsequente.
 
 Solicitação:
 
@@ -411,7 +411,7 @@ curl -X GET \
 
 Resposta:
 
-Uma resposta bem-sucedida retorna a próxima página de resultados. Este exemplo demonstra uma resposta em que não há páginas subsequentes de resultados, conforme indicado pelos valores de sequência de caracteres vazios de _page.next e _links.next.href.
+Uma resposta bem-sucedida retorna a próxima página de resultados. Este exemplo demonstra uma resposta em que não há páginas subsequentes de resultados, conforme indicado pelos valores de sequência vazios de &amp;lowbar;page.next e &amp;lowbar;links.next.href.
 
 ```
 {
@@ -463,5 +463,5 @@ Uma resposta bem-sucedida retorna a próxima página de resultados. Este exemplo
 ## Artigos de referência
 
 * [API de perfil do cliente em tempo real](https://adobe.ly/2TtDHWr)
-* [Acessar dados de perfil do Cliente em tempo real usando o tutorial da API de perfil](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] Guia de Autenticação](https://docs.adobe.com/content/help/pt-BR/experience-platform/tutorials/authentication.html)
+* [Acessar dados de perfil do Cliente em tempo real usando o tutorial da API de perfil](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform] Guia de Autenticação](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
