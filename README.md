@@ -9,4 +9,4 @@ ht-degree: 0%
 
 Este repositório foi migrado da Git Corp para a GitHub Enterprise Cloud. Novo local:
 
-<https://github.com/Adobe-Enterprise-Docs/partner-exchange.en>
+<https://github.com/Adobe-Enterprise-Docs/partner-exchange.pt-BR>
