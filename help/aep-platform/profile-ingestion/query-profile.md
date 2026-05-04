@@ -3,8 +3,10 @@ title: Acessar o perfil unificado
 description: Use APIs para acessar o Perfil unificado.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
 TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
 source-wordcount: 797
@@ -396,7 +398,7 @@ Uma resposta bem-sucedida retorna uma lista paginada de eventos de série tempor
 
 ### Paginação para eventos de série temporal de um perfil
 
-Os resultados são paginados ao recuperar eventos de série temporal. Se houver páginas subsequentes de resultados, o parâmetro page.next da resposta conterá uma ID. Além disso, o parâmetro &amp;lowbar;links.next.href da resposta fornece um URI de solicitação para recuperar a página subsequente.
+Os resultados são paginados ao recuperar eventos de série temporal. Se houver páginas subsequentes de resultados, o parâmetro page.next da resposta conterá uma ID. Além disso, o parâmetro &lowbar;links.next.href da resposta fornece um URI de solicitação para recuperar a página subsequente.
 
 Solicitação:
 
@@ -414,7 +416,7 @@ curl -X GET \
 
 Resposta:
 
-Uma resposta bem-sucedida retorna a próxima página de resultados. Este exemplo demonstra uma resposta em que não há páginas subsequentes de resultados, conforme indicado pelos valores de sequência vazios de &amp;lowbar;page.next e &amp;lowbar;links.next.href.
+Uma resposta bem-sucedida retorna a próxima página de resultados. Este exemplo demonstra uma resposta em que não há páginas subsequentes de resultados, conforme indicado pelos valores de sequência vazios de &lowbar;page.next e &lowbar;links.next.href.
 
 ```
 {
