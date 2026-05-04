@@ -33,7 +33,7 @@ Na próxima vez que um cliente ligar para a central de atendimento, ele será at
 
 ## Recursos gerais
 
-* [Documentação do produto](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html) do AEP.
+* [Documentação do produto](https://docs.adobe.com/content/help/pt-BR/experience-platform/landing/documentation/overview.html) do AEP.
 * [Extensibilidade](https://www.adobe.com/insights/experience-platform-api-extensibility.html) do AEP.
 
 ## Dúvidas ou feedback?
