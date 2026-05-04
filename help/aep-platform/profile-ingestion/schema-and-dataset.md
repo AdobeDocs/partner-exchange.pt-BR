@@ -1,11 +1,14 @@
 ---
-title: Criar esquemas e conjuntos de dados da AEP
-description: Crie esquemas e conjuntos de dados no Experience Platform.
+title: Criar esquemas e conjuntos de dados do AEP
+description: Crie esquemas e conjuntos de dados na Experience Platform.
 exl-id: a2773551-20a3-4a5b-ab53-60fa67e38ec0
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/uQtIQwCgsjOd5pR5w4LF634-Whvjl0jmF5WywVWlkZQ
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 10%
+source-wordcount: 617
+ht-degree: 17%
 
 ---
 
@@ -21,11 +24,11 @@ Consulte [esta documentação](https://www.adobe.io/apis/experienceplatform/home
 
 ### Criar um esquema
 
-Os parceiros podem criar um esquema usando a interface seguindo este [tutorial](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/tutorials/create-schema-ui.html). Este exemplo usa o esquema de perfil do programa de fidelidade. Embora o exemplo seja um schema de perfil, schemas baseados em eventos podem ser usados usando um processo semelhante.
+Os parceiros podem criar um esquema usando a interface seguindo este [tutorial](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-ui.html). Este exemplo usa o esquema de perfil do programa de fidelidade. Embora o exemplo seja um schema de perfil, schemas baseados em eventos podem ser usados usando um processo semelhante.
 
-Para usar as APIs, os parceiros devem ter uma integração de Adobe I/O existente com [!DNL Experience Platform] permissões habilitadas. Consulte este manual para [criar uma integração de E/S](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+Para usar as APIs, os parceiros devem ter uma integração do Adobe I/O existente com permissões [!DNL Experience Platform] habilitadas. Consulte este manual para [criar uma integração de E/S](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
-Em seguida, visite [este link](https://docs.adobe.com/content/help/pt-BR/experience-platform/xdm/tutorials/create-schema-api.html) para saber como criar esquemas usando a API.
+Em seguida, visite [este link](https://docs.adobe.com/content/help/en/experience-platform/xdm/tutorials/create-schema-api.html) para saber como criar esquemas usando a API.
 
 Para criar um esquema por meio do Postman, use as chamadas contidas nas pastas 1: Criar esquema, 1a: Criar esquema para dados de PERFIL OU 1b: Criar esquema para dados DE EVENTO.
 
@@ -35,7 +38,7 @@ Todos os dados trazidos para o Adobe [!DNL Experience Platform] estão contidos 
 
 O Serviço de Catálogo é o sistema de registro para localização e linhagem de dados no [!DNL Experience Platform], e é usado para criar e gerenciar conjuntos de dados. O catálogo rastreia os metadados de cada conjunto de dados, o que inclui uma referência ao esquema do Experience Data Model (XDM) com o qual o conjunto de dados está em conformidade (explicado na próxima seção) e o número de registros assimilados nesse conjunto de dados.
 
-Acesse [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/catalog/datasets/overview.html) para obter uma visão geral detalhada do conjunto de dados.
+Acesse [aqui](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/overview.html) para obter uma visão geral detalhada do conjunto de dados.
 
 ### Criar um conjunto de dados
 
@@ -53,15 +56,15 @@ Criar um conjunto de dados por meio da interface do usuário:
 
 1. Clique em **[!UICONTROL Concluir]**.
 
-Obtenha [aqui](https://docs.adobe.com/content/help/pt-BR/experience-platform/catalog/datasets/user-guide.html) um guia do usuário do conjunto de dados.
+Obtenha [aqui](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/user-guide.html) um guia do usuário do conjunto de dados.
 
-[Criar um conjunto de dados usando as APIs](https://docs.adobe.com/content/help/pt-BR/experience-platform/catalog/datasets/create.html).
+[Criar um conjunto de dados usando as APIs](https://docs.adobe.com/content/help/en/experience-platform/catalog/datasets/create.html).
 
 Para criar um conjunto de dados por meio do Postman, use as pastas 2: Criar conjunto de dados, 2a: Criar conjunto de dados para dados do PERFIL OU 2b: Criar conjunto de dados para dados do EVENTO.
 
 ## Práticas recomendadas de esquema e conjunto de dados para parceiros
 
 * Os dados do parceiro devem usar um esquema de perfil separado em vez de criar um mix-in para o esquema de perfil e o esquema de experiência existentes de um cliente.
-* Sempre que possível, os parceiros devem usar classes de Adobe e mixins.
+* Os parceiros devem usar aulas e mixins do Adobe sempre que possível.
 * Os parceiros devem fazer upload de seus dados usando um conjunto de dados separado, em vez de tentar combinar seus dados em um conjunto de dados existente.
 * Os parceiros não podem fazer upload de seus esquemas para o registro global por enquanto.

@@ -1,17 +1,20 @@
 ---
-title: "[!DNL Platform] Visão Geral do Guia de Integração de Acesso e Assimilação de Perfil"
+title: Visão geral do Guia de integração de acesso e assimilação de perfis do [!DNL Platform]
 description: Saiba mais sobre a integração para  [!DNL Experience Platform] assimilação e acesso de perfil.
 exl-id: a593511c-dd4c-4437-af73-f44d795cacb8
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/whnqurJyM4QXl5ikRvez7hpKWRDuU4onzROsUk-WeSI
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 0%
+source-wordcount: 492
+ht-degree: 1%
 
 ---
 
 # Guia de integração: assimilação e acesso ao perfil do [!DNL Experience Platform]
 
-Os parceiros devem usar este guia de integração para ajudá-los a desenvolver a funcionalidade de entrada e saída com o Adobe [!DNL Experience Platform] (AEP). Há APIs para assimilação em lote, assimilação por transmissão e acesso ao perfil unificado (saída).
+Os parceiros devem usar este guia de integração para ajudá-los a criar a funcionalidade de entrada e saída com o Adobe [!DNL Experience Platform] (AEP). Há APIs para assimilação em lote, assimilação por transmissão e acesso ao perfil unificado (saída).
 
 Para auxiliar no desenvolvimento, uma [coleção do Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) foi criada pela equipe do Adobe Exchange. Essa coleção do Postman é mencionada em todo o guia de integração.
 
@@ -27,8 +30,8 @@ Na próxima vez que um cliente ligar para a central de atendimento, ele será at
 
 ## Recursos gerais
 
-* AEP [Documentação do produto](https://docs.adobe.com/content/help/pt-BR/experience-platform/landing/documentation/overview.html).
-* [Extensibilidade](https://www.adobe.com/insights/experience-platform-api-extensibility.html) da AEP.
+* [Documentação do produto](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html) do AEP.
+* [Extensibilidade](https://www.adobe.com/insights/experience-platform-api-extensibility.html) do AEP.
 
 ## Dúvidas ou feedback?
 
