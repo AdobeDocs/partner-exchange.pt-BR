@@ -2,9 +2,14 @@
 title: Acessar o perfil unificado
 description: Use APIs para acessar o Perfil unificado.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
+TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 797
 ht-degree: 0%
 
 ---
@@ -393,7 +398,7 @@ Uma resposta bem-sucedida retorna uma lista paginada de eventos de série tempor
 
 ### Paginação para eventos de série temporal de um perfil
 
-Os resultados são paginados ao recuperar eventos de série temporal. Se houver páginas subsequentes de resultados, o parâmetro page.next &lowbar;page.next da resposta conterá uma ID. Além disso, o parâmetro &lowbar;links.next.href da resposta fornece um URI de solicitação para recuperar a página subsequente.
+Os resultados são paginados ao recuperar eventos de série temporal. Se houver páginas subsequentes de resultados, o parâmetro page.next da resposta conterá uma ID. Além disso, o parâmetro &lowbar;links.next.href da resposta fornece um URI de solicitação para recuperar a página subsequente.
 
 Solicitação:
 
@@ -462,6 +467,6 @@ Uma resposta bem-sucedida retorna a próxima página de resultados. Este exemplo
 
 ## Artigos de referência
 
-* [API de perfil do cliente em tempo real](https://adobe.ly/2TtDHWr)
-* [Acessar dados de perfil do Cliente em tempo real usando o tutorial da API de perfil](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] Guia de Autenticação](https://docs.adobe.com/content/help/pt-BR/experience-platform/tutorials/authentication.html)
+* [API do Perfil do cliente em tempo real](https://adobe.ly/2TtDHWr)
+* [Acessar dados de perfil do cliente em tempo real usando o tutorial da API de perfil](https://docs.adobe.com/content/help/pt-BR/experience-platform/profile/api/getting-started.html)
+* [Guia de Autenticação do [!DNL Experience Platform]](https://docs.adobe.com/content/help/pt-BR/experience-platform/tutorials/authentication.html)

@@ -1,19 +1,24 @@
 ---
-title: Importar dados em lote para a AEP
+title: Importar dados em lote para o AEP
 description: Saiba como importar arquivos em lote para o Experience Platform
 exl-id: 50576b67-b3ba-498e-86f6-7e1986b76985
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/sJjuydUOIwlu4gv6qmokidQJVrYLN4--M8m3DTkcjf0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 646
 ht-degree: 0%
 
 ---
 
-# Importar dados em lote para a AEP
+# Importar dados em lote para o AEP
 
-A AEP pode assimilar arquivos em lote que contenham dados de perfil de um arquivo simples (como parquet) ou dados que estejam em conformidade com um esquema conhecido no registro do [!UICONTROL Experience Data Model] (XDM).
+O AEP pode assimilar arquivos em lote que contenham dados de perfil de um arquivo simples (como parquet) ou dados que estejam em conformidade com um esquema conhecido no registro do [!UICONTROL Experience Data Model] (XDM).
 
-A AEP pode assimilar dados usando arquivos em lote. Os seguintes formatos são aceitos: JSON, Parquet e CSV.
+O AEP pode assimilar dados usando arquivos em lote. Os seguintes formatos são aceitos: JSON, Parquet e CSV.
 
 Este artigo abordará o seguinte:
 
@@ -236,6 +241,6 @@ Resposta:
 * [API de assimilação de dados](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
 * [Visão geral da assimilação em lote](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
 * [Guia do desenvolvedor de assimilação em lote](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
-* [Guia de Solução de Problemas de Assimilação em Lote](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
+* [Guia de solução de problemas de assimilação em lote](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
 * [Coleção Postman de assimilação de dados](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
 * [Tutorial de autenticação](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)
