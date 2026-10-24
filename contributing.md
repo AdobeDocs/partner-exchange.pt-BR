@@ -1,9 +1,8 @@
 ---
 source-git-commit: 908f6024659d6c1540343aaffb0684cbd3fe3947
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 100%
-
+source-wordcount: '286'
+ht-degree: 31%
 ---
 # Contribuição
 
@@ -13,29 +12,29 @@ A seguir, há um conjunto de diretrizes a seguir ao contribuir com esse projeto.
 
 ## Código de conduta
 
-Esse projeto segue o [código de conduta](code-of-conduct.md) da Adobe. Ao participar, você 
-deve seguir esse código. Denuncie qualquer comportamento inaceitável para 
+Este projeto adere ao [código de conduta](code-of-conduct.md) da Adobe. Ao participar,
+espera-se que você mantenha esse código. Denuncie comportamento inaceitável para
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Dúvidas?
 
-Comece apresentando um problema. Os responsáveis existentes neste projeto trabalham para chegar a um
-consenso sobre a direção do projeto e emitem as soluções nos threads
-de problema (quando apropriado).
+Comece apresentando um problema. Os executores existentes neste projeto trabalham para alcançar
+consenso sobre a direção do projeto e soluções de problemas nos threads de problemas
+(quando apropriado).
 
-## Contrato de Licença de Colaborador
+## Contrato de licença de colaborador
 
-Todas as contribuições de terceiros para esse projeto devem ser acompanhadas por um Contrato de Licença de Colaborador
-assinado. Esse contrato fornece à Adobe permissão para redistribuir suas contribuições
+Todas as contribuições de terceiros a este projeto devem ser acompanhadas por um contribuidor assinado
+contrato de licença. Dessa forma, a Adobe tem permissão para redistribuir suas contribuições
 como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). Você
-precisa enviar um CLA da Adobe somente uma vez. Por isso, se já tiver enviado um,
-você pode ir em frente!
+é necessário enviar apenas um Adobe CLA por vez. Se já tiver enviado anteriormente,
+você está pronto para ir!
 
 ## Revisões do código
 
-Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados
-pelos responsáveis pelo projeto. Leia a [documentação de solicitação de pull do GitHub](https://help.github.com/pt/articles/about-pull-requests/)
-para obter mais informações sobre como enviar solicitações de pull.
+Todos os envios devem vir na forma de solicitações de pull e precisam ser revisados
+pelos responsáveis pelo projeto. Leia a documentação de solicitação de pull do [GitHub](https://help.github.com/pt/articles/about-pull-requests/)
+para obter mais informações sobre envio de pull requests.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -44,12 +43,12 @@ submitting a pull request!
 
 ## De colaborador a responsável
 
-Apreciamos as contribuições da nossa comunidade! Se você quiser ser mais do que um colaborador
-e se tornar um responsável com acesso de gravação total e ter voz no projeto, deverá
-ser convidado para o projeto. Os responsáveis existentes empregam um processo de designação
-interno para chegar a um consenso (ficar em silêncio significa aprovação) antes da emissão
-dos convites. Se você estiver qualificado e quiser se envolver mais profundamente,
-entre em contato com os responsáveis existentes para conversar sobre isso.
+Apreciamos as contribuições da nossa comunidade! Se você quiser ir além como colaborador
+e se tornar um executor com acesso total à gravação e voz ativa no projeto, você deve
+para o projeto. Os responsáveis existentes empregam uma indicação interna
+processo que deve alcançar consenso lento (silêncio é aprovação) antes dos convites
+são emitidos. Se você se sentir qualificado e quiser se envolver mais,
+fique à vontade para entrar em contato com os responsáveis existentes e conversar sobre isso.
 
 ## Problemas de segurança
 
